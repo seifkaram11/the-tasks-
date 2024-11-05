@@ -1,0 +1,158 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="78dp"
+        android:background="@color/gray"
+        >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="40dp"
+           android:text="@string/my_app_of_memes"
+           android:textStyle="bold"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:textSize="30sp"
+           android:background="@color/black"
+           android:textColor="@color/white"
+
+           />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="216dp"
+
+            android:contentDescription="@string/first_part_of_meme"
+            android:scaleType="centerInside"
+            android:src="@drawable/partone"
+
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="194dp"
+
+            android:contentDescription="@string/second_part_of_meme"
+            android:scaleType="centerInside"
+            android:src="@drawable/part2"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:weightSum="5"
+                >
+
+                <TextView
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="3"
+                    android:background="@color/black"
+                    android:text="@string/my_name_is_seif_el_den_karam"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="@string/my_age_is_19"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/i_am_training_at_depi_in_the_field_of_mobile_app"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="_______________________________________________________________"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="@string/skills"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="396dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="@string/problem_solving_oop_c"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <TextView
+                    android:layout_width="396dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="My number: 01070065331 "
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

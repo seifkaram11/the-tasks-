@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">first try</string>
+    <string name="seif">seif</string>
+    <string name="cr7">cr7\n</string>
+    <string name="wi">try</string>
+    <string name="my_app_of_memes">MEME APP</string>
+    <string name="first_part_of_meme">first part of meme</string>
+    <string name="second_part_of_meme">second part of meme</string>
+    <string name="my_name_is_seif_el_den_karam">My name is seif el-den karam</string>
+    <string name="i_am_training_at_depi_in_the_field_of_mobile_app">I am training at DEPI in the field of mobile app</string>
+    <string name="my_age_is_19">My age is 19</string>
+    <string name="skills">Skills</string>
+    <string name="problem_solving_oop_c">    * Problem solving     -    * OOP     -      * C++    </string>
+</resources>
