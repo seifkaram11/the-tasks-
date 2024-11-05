@@ -54,14 +54,13 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:weightSum="5"
-                >
+                android:weightSum="5">
 
                 <TextView
                     android:layout_width="195dp"
@@ -85,26 +84,30 @@
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/i_am_training_at_depi_in_the_field_of_mobile_app"
-                    android:background="@color/black"
-                    android:textColor="@color/white"
-                    android:layout_margin="5dp"
                     android:layout_gravity="center"
-                    android:gravity="center"
-                    android:layout_weight="1"
+                    android:layout_margin="5dp"
                     android:layout_marginBottom="10dp"
-                    />
+                    android:layout_weight="1"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="@string/i_am_training_at_depi_in_the_field_of_mobile_app"
+                    android:textColor="@color/white" />
             </LinearLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="_______________________________________________________________"/>
+                android:text="@string/the_line"
+                android:textSize="10sp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -134,12 +137,13 @@
                     android:text="@string/problem_solving_oop_c"
                     android:textColor="@color/white" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_margin="5dp"
-                >
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="396dp"
                     android:layout_height="0dp"
@@ -151,6 +155,7 @@
                     android:gravity="center"
                     android:text="seifkaram991@gmail.com"
                     android:textColor="@color/white" />
+
                 <TextView
                     android:layout_width="396dp"
                     android:layout_height="0dp"
